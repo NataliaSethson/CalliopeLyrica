@@ -1,0 +1,35 @@
+.contenedorInicio {
+  display: flex;           
+  align-items: center;     
+  gap: 20px;               
+  margin-bottom: 20px;     
+}
+
+.imgInicio {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 5px;
+  object-fit: cover;      
+  margin-left: 550px; 
+  margin-right: 50px;
+}
+
+.textoInicio {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-right: 15px;
+}
+
+.linkInicio {
+  text-decoration: none;
+  color: black;
+  background-color: #e4c56edd;
+  font-size: 15px;
+  padding: 8px 8px;
+  border-radius: 2px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 650px;
+}

@@ -1,0 +1,21 @@
+.divConcert{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.textConcert{
+  text-align: center;     
+  font-weight: lighter;
+  font-size: 15px;
+  max-width: 700px;   
+  margin: 0 auto;        
+  line-height: 1.5; 
+}
+
+.imgConcert{
+   max-width: 100%;
+   height: 300px;
+   display: block;
+   align-items: center;
+   margin: 20px auto;
+}
