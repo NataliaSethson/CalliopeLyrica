@@ -21,7 +21,6 @@ const Informacion = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          height: "100vh"
         }}
       >
         <div style={{ width: "80%", maxWidth: "1200px" }}>

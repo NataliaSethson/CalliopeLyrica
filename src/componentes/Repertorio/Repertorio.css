@@ -3,13 +3,16 @@
     font-weight: lighter;
     font-size: 30px;
     margin: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .textRepertorio{
   text-align: center;     
   font-weight: lighter;
   font-size: 15px;
   max-width: 700px;       
-  margin: 0 auto;        
+  margin: 0 auto;  
+  margin-bottom: 50px;      
   line-height: 1.5; 
 }
 

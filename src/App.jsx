@@ -1,4 +1,4 @@
-
+import "./App.css"
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Footer from './componentes/Footer/Footer'
 import Inicio from './componentes/Inicio/Inicio'
@@ -14,7 +14,7 @@ import CantoLirico from './componentes/CantoLirico/CantoLirico'
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <BrowserRouter>
         <CartProvider>
           <NavBar></NavBar>

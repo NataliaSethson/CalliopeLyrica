@@ -4,7 +4,7 @@ import { useContext } from 'react'
 import { CartContext } from '../../Context/CartContext'
 
 const Institucional = () => {
-  const{handleVolver}=useContext(CartContext)
+  const { handleVolver } = useContext(CartContext)
 
 
   return (

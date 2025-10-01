@@ -1,8 +1,9 @@
-.footerContainer{
-    background-color:  #e4c56edd;
-    color: black;
-    text-align: center;
-    font-size: 15px;
-    padding: 10px;
-    margin-bottom: 0px;
+.footerContainer {
+  background-color: #e4c56edd;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-top: 280px;
 }

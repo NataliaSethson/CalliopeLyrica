@@ -3,10 +3,16 @@
   font-weight: lighter;
   font-size: 16px;
   max-width: 700px;   
-  margin: 0 auto;        
+  margin-top: 15px;
+  margin-bottom: 100px;
   line-height: 1.6; 
 }
 
 .divInf{
   margin-top: 50px;
+  display: flex;             
+  flex-direction: column;     
+  align-items: center;        
+  text-align: center; 
+  
 }
