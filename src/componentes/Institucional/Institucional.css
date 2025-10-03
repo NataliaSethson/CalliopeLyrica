@@ -10,7 +10,7 @@
 }
 
 .alumnos {
-    height: 500px;
+    height: 600px;
     max-width: 100%;
     object-fit: cover;
     border-radius: 5px;
@@ -49,7 +49,6 @@
     cursor: pointer;
 }
 
-/* Responsive tablets */
 @media (max-width: 1024px) {
     .divContainerAlumnos {
         flex-direction: column;
@@ -68,7 +67,6 @@
     }
 }
 
-/* Responsive móviles */
 @media (max-width: 480px) {
     .pAlumnos, .calliopeH {
         font-size: 14px;

@@ -12,6 +12,7 @@
 .textCatedra{
   text-align: center;     
   font-weight: lighter;
+  margin-top: 40px !important;
   margin-bottom: 40px !important;
   font-size: 15px;
   max-width: 700px;       

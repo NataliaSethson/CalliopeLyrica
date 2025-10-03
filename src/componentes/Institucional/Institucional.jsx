@@ -11,7 +11,10 @@ const Institucional = () => {
     <div>
       <div className='divContainerAlumnos'>
         <p className='pAlumnos'>En Calliope Lyrica, la mezzosoprano Paola Völk ha concebido un espacio donde la técnica, la sensibilidad y la emoción se encuentran para dar forma a intérpretes completos. Cada alumno es invitado a descubrir su propia voz, a explorar la riqueza del canto lírico y a conectar con la música de manera profunda, auténtica y apasionada. Aquí, aprender no es solo dominar la técnica: es vivir el arte, disfrutarlo y transformarlo en expresión propia.</p>
-        <img src="./alumnos.jpg" alt='' className='alumnos' />
+        <div>
+          <img src="./alumnos.jpg" alt='' className='alumnos' />
+          <img src="./alumnos2.jpg" alt='' className='alumnos' />
+        </div>
       </div>
       <br></br>
       <p className='calliopeH'>

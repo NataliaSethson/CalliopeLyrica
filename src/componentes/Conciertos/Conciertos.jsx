@@ -5,7 +5,7 @@ import "./Conciertos.css"
 
 const Conciertos = () => {
 
-    const {handleVolver}=useContext(CartContext)
+    const { handleVolver } = useContext(CartContext)
 
     return (
         <div className="divConcert">
@@ -14,7 +14,8 @@ const Conciertos = () => {
 
                 Actualmente, los alumnos se preparan para presentar “Le nozze di Figaro” de Mozart en versión concierto, consolidando la formación rigurosa, sensible y apasionada que distingue a la academia.
             </h4>
-            <img src='./conciertos.jpeg'alt='' className="imgConcert"/>
+            <img src='./conciertos.jpeg' alt='' className="imgConcert" />
+            <img src='./conciertos2.jpg' alt='' className="imgConcert" />
             <button onClick={handleVolver} className='buttonVolver'>VOLVER</button>
         </div>
     )
