@@ -6,7 +6,7 @@ export default function WspButton() {
       <FloatingWhatsApp
         phoneNumber="541153743796"
         accountName="Calliope Lyrica"
-        avatar="calliopeWsp.png"
+        avatar="C.png"
         chatMessage="¡Hola! Escribe tu consulta y te responderemos a la brevedad"
         placeholder="Escribe un mensaje..."
       />
