@@ -11,7 +11,7 @@ const Inicio = () => {
           <img src="./inicio.jpeg" className="imgInicio" alt="Andrea Paola Völk" />
         </div>
         <p className="textoInicio">
-          Andrea Paola Völk reconocida cantante lírica y fundadora de Calliope Lyrica,
+          Paola Völk reconocida cantante lírica y fundadora de Calliope Lyrica,
           una academia dedicada a la formación integral en canto lírico.
           <br></br>
           Se graduó en 2011 en el Conservatorio Alfredo Luis Schiuma,
