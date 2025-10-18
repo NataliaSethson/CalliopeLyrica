@@ -4,8 +4,8 @@ import './NavBar.css'
 const NavBar = () => {
   return (
     <div className='navContainer'>
-      <Link to="/">
-        <div className="banner"></div>
+      <Link to="/" className='logoLink'>
+        <img src='/C.png' alt='' className="banner" />
       </Link>
       <div className='navLinks'>
         <nav >
