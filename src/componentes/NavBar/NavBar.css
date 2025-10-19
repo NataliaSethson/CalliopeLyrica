@@ -18,7 +18,6 @@
   background-color: #e4c56edd;
   margin: 0;
   margin-bottom: 30px;
-  padding: 2px 0;
 }
 
 ul {
@@ -43,36 +42,36 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #d1a94e;
+  background-color: white;
   color: #080808;
 }
 
 
 @media (max-width: 768px) {
   .banner {
-    height: 150px;
+    height: 100px;
   }
 
   ul {
     flex-direction: column; 
-    gap: 10px; 
+    gap: 5px; 
     text-align: center;
   }
 
   ul li a {
     width: 100%;
     display: block;
-    padding: 5px;
+    padding: 3px;
   }
 }
 
 @media (max-width: 480px) {
   .banner {
-    height: 120px; 
+    height: 100px; 
   }
 
   ul li a {
     font-size: 14px; 
-    padding: 8px;
+    padding: 3px;
   }
 }

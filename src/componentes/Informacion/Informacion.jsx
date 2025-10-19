@@ -2,6 +2,7 @@ import { useContext, useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './Informacion.css'
 import { CartContext } from '../../Context/CartContext';
+import Button from '@mui/material/Button';
 
 const Informacion = () => {
   const [index, setIndex] = useState(0);
@@ -71,7 +72,7 @@ const Informacion = () => {
           </Carousel>
         </div>
       </div>
-      <button onClick={handleVolver} className='buttonVolver'>VOLVER</button>
+      <Button variant="outlined" onClick={handleVolver} className='buttonVolver'>VOLVER</Button>
     </div>
   )
 }

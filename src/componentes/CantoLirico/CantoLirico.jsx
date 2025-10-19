@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import { CartContext } from '../../Context/CartContext'
 import "./CantoLirico.css"
+import Button from '@mui/material/Button';
 
 const CantoLirico = () => {
 
@@ -18,7 +19,7 @@ const CantoLirico = () => {
                 </h3>
                 <img src='./cantoLirico.jpeg' alt='' className='imgCatedra' />
             </div>
-            <button onClick={handleVolver} className='buttonVolver'>VOLVER</button>
+            <Button variant="outlined" onClick={handleVolver} className='buttonVolver'>VOLVER</Button>
         </div>
     )
 }

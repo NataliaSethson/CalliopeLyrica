@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import Button from '@mui/material/Button';
 import './Institucional.css'
 import { useContext } from 'react'
 import { CartContext } from '../../Context/CartContext'
@@ -20,7 +20,7 @@ const Institucional = () => {
       <p className='calliopeH'>
         El nombre de la academia rinde homenaje a Calliope, la musa griega de la poesía épica y de la voz hermosa, considerada inventora del canto y madre de Orfeo, portador del don musical y poético. Este espíritu inspirador está presente en cada clase, en cada interpretación y en cada proyecto, recordando que el canto lírico es un arte que une historia, emoción y técnica en perfecta armonía.
       </p>
-      <button onClick={handleVolver} className='buttonVolver'>VOLVER</button>
+      <Button variant="outlined" onClick={handleVolver} className='buttonVolver'>VOLVER</Button>
 
     </div>
   )
