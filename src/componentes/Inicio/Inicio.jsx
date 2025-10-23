@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+
 import './Inicio.css';
 import { Button } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
@@ -31,7 +31,7 @@ const Inicio = () => {
       </div>
       <div className="contenedorBoton">
         <LinkContainer to="./informacion" className="linkInicio">
-          <Button variant="dark">MÁS SOBRE MÍ</Button>
+          <Button variant="dark" size="lg">MÁS SOBRE MÍ</Button>
         </LinkContainer>
       </div>
 

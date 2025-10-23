@@ -18,7 +18,9 @@ const Institucional = () => {
       </div>
       <br></br>
       <p className='calliopeH'>
-        El nombre de la academia rinde homenaje a Calliope, la musa griega de la poesía épica y de la voz hermosa, considerada inventora del canto y madre de Orfeo, portador del don musical y poético. Este espíritu inspirador está presente en cada clase, en cada interpretación y en cada proyecto, recordando que el canto lírico es un arte que une historia, emoción y técnica en perfecta armonía.
+        El nombre de la academia rinde homenaje a Calliope, la musa griega de la poesía épica y de la voz hermosa, considerada inventora del canto y madre de Orfeo, portador del don musical y poético.
+        <br></br> 
+        Este espíritu inspirador está presente en cada clase, en cada interpretación y en cada proyecto, recordando que el canto lírico es un arte que une historia, emoción y técnica en perfecta armonía.
       </p>
       <Button variant="outlined" onClick={handleVolver} className='buttonVolver'>VOLVER</Button>
 

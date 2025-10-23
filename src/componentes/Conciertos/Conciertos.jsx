@@ -15,9 +15,11 @@ const Conciertos = () => {
 
                 Actualmente, los alumnos se preparan para presentar “Le nozze di Figaro” de Mozart en versión concierto, consolidando la formación rigurosa, sensible y apasionada que distingue a la academia.
             </h4>
+            <div className="imgContConciertos">
             <img src='/conciertos.jpeg' alt='' className="imgConcert" />
             <img src='/conciertos2.jpg' alt='' className="imgConcert" />
             <img src='/conciertos3.jpeg' alt='' className="imgConcert" />
+            </div>
             <Button variant="outlined" onClick={handleVolver} className='buttonVolver'>VOLVER</Button>
         </div>
     )

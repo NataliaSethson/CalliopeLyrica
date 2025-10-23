@@ -1,19 +1,16 @@
 .titleRepertorio{
     text-align: center;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 40px;
     margin: 15px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 .textRepertorio{
   text-align: center;     
   font-weight: lighter;
-  font-size: 16px;
-  max-width: 700px;       
-  margin: 0 auto;  
-  margin-top: 30px;
-  margin-bottom: 50px;      
+  font-size: 21px;      
+  margin: 50px 50px 80px 50px;      
   line-height: 1.5; 
 }
 
