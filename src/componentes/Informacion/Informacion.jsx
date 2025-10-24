@@ -14,8 +14,12 @@ const Informacion = () => {
 
   return (
     <div className='divInf'>
-      <h3 className='titlInf'>A lo largo de su carrera, Paola Völk ha llevado su voz a escenarios diversos, interpretando obras de cámara y arias de ópera en teatros, auditorios y espacios culturales de gran prestigio. Su versatilidad la ha llevado a presentarse tanto en salas históricas como en ámbitos académicos y comunitarios, siempre transmitiendo la esencia del canto lírico con sensibilidad y fuerza interpretativa.
+      <h3 className='titlInf'>A lo largo de su carrera, Paola Völk ha llevado su voz a escenarios diversos, interpretando obras de cámara y arias de ópera en teatros, auditorios y espacios culturales de gran prestigio.
+        <br></br>
+        Su versatilidad la ha llevado a presentarse tanto en salas históricas como en ámbitos académicos y comunitarios, siempre transmitiendo la esencia del canto lírico con sensibilidad y fuerza interpretativa.
+        <br></br>
         En el terreno operístico, bajo la dirección de la Maestra Clara Mastrango, encarnó personajes de gran intensidad dramática en Suor Angelica y Gianni Schicchi de Giacomo Puccini, roles que consolidaron su presencia escénica y su madurez artística.
+        <br></br>
         Cada una de sus interpretaciones refleja no solo su formación y técnica, sino también una pasión inquebrantable por el arte lírico, que convierte cada concierto en una experiencia viva y memorable para el público. </h3>
       <div
         style={{
@@ -35,7 +39,7 @@ const Informacion = () => {
               <img
                 src="/1.png"
                 alt="ZIA PRINCIPESSA"
-                className="d-block mx-auto"
+                className="d-block mx-auto img-fluid"
 
               />
               <Carousel.Caption>
@@ -48,7 +52,7 @@ const Informacion = () => {
               <img
                 src="/2.png"
                 alt="ZITA"
-                className="d-block mx-auto"
+                className="d-block mx-auto img-fluid"
 
               />
               <Carousel.Caption>
@@ -61,7 +65,7 @@ const Informacion = () => {
               <img
                 src="/3.png"
                 alt="MADRASTRA"
-                className="d-block mx-auto"
+                className="d-block mx-auto img-fluid"
 
               />
               <Carousel.Caption>

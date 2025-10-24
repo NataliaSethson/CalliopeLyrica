@@ -1,11 +1,9 @@
 .titlInf{
   text-align: center;     
   font-weight: lighter;
-  font-size: 16px;
-  max-width: 700px;   
-  margin-top: 15px;
-  margin-bottom: 100px;
-  line-height: 1.6; 
+  font-size: 19px;
+  margin: 7px 50px 50px 100px ;
+ 
 }
 
 .divInf{
@@ -16,3 +14,18 @@
   text-align: center; 
   
 }
+@media (max-width: 1580px){
+  .titlInf{
+    margin: 15px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 530px){
+  .titlInf{
+    margin: 15px;
+    font-size: 14px;
+  }
+}
+
+
