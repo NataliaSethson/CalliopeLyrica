@@ -5,7 +5,7 @@
 
 .titleCatedra {
   text-align: center;
-  font-weight: lighter;
+  font-weight: 370;
   font-size: 40px;
   margin: 15px;
   margin-top: 20px;
@@ -14,7 +14,7 @@
 
 .textCatedra {
   text-align: center;
-  font-weight: lighter;
+  font-weight: 370;
   font-size: 23px;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -89,7 +89,7 @@
   }
 }
 
-/* Mobile */
+
 @media (max-width: 480px) {
   .titleCatedra {
     font-size: 26px;
