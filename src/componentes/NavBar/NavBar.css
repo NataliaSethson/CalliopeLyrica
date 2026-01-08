@@ -101,6 +101,19 @@
   z-index: 1500;
 }
 
+.language-switcher {
+  display: flex;
+  gap: 8px;
+}
+
+.language-switcher button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
 @media (max-width: 900px) {
 
   /* HEADER */
@@ -130,7 +143,7 @@
     padding: 6px 10px;
   }
 
-  /* SIDEBAR */
+  
   .sidebar {
     width: 260px;
     left: -280px;
