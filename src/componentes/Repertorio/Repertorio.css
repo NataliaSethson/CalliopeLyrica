@@ -1,23 +1,70 @@
-.titleRepertorio{
-    text-align: center;
-    font-weight: lighter;
-    font-size: 40px;
-    margin: 15px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-.textRepertorio{
-  text-align: center;     
+.titleRepertorio {
+  text-align: center;
   font-weight: lighter;
-  font-size: 21px;      
-  margin: 50px 50px 80px 50px;      
-  line-height: 1.5; 
+  font-size: 40px;
+  margin: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.imgDiego{
-   max-width: 100%;
-   height: 500px;
-   display: block;
-   align-items: center;
-   margin: 20px auto;
+.textRepertorio {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 23px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  line-height: 1.5;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.imgDiego {
+  max-width: 100%;
+  height: 500px;
+  display: block;
+  margin: 90px auto 160px;
+  object-fit: cover;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .titleRepertorio {
+    font-size: 32px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+
+  .textRepertorio {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .imgDiego {
+    height: 350px;
+    margin: 70px auto 120px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .titleRepertorio {
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .textRepertorio {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .imgDiego {
+    height: 240px;
+    margin: 50px auto 80px;
+  }
 }

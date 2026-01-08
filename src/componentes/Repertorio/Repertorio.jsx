@@ -12,7 +12,10 @@ const Repertorio = () => {
                 Cátedra de Repertorio.
             </h2>
             <h3 className='textRepertorio'>
-                Dirigida por el pianista Diego López, quien acompaña al piano y guía a los estudiantes en la comprensión profunda de cada pieza: su contexto histórico, el estilo del compositor y la esencia de la obra, fomentando un aprendizaje integral que armoniza técnica, sensibilidad y conocimiento musical.
+                La Cátedra de Repertorio es dirigida por el pianista Diego López, egresado del Conservatorio Superior de Música Manuel de Falla. Su labor va más allá del acompañamiento: Diego guía a los estudiantes en una comprensión profunda de cada pieza, abordando su contexto histórico, el estilo del compositor y la esencia dramática de la obra.
+            <br></br>
+            <br></br>
+                Con una trayectoria que incluye escenarios de prestigio como el Salón Dorado del Teatro Colón, su enfoque fomenta un aprendizaje integral. En este espacio, la técnica vocal se armoniza con la sensibilidad musical y el conocimiento académico, brindando al intérprete las herramientas necesarias para abordar el gran repertorio lírico con solvencia y madurez artística.
             </h3>
             <img src='./diego.jpg' alt='' className='imgDiego' />
             <Button variant="outlined" onClick={handleVolver} className='buttonVolver'>VOLVER</Button>

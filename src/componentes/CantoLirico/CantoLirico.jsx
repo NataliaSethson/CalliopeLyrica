@@ -15,11 +15,15 @@ const CantoLirico = () => {
                     Cátedra de Canto Lírico.
                 </h2>
                 <h3 className='textCatedra'>
-                    A cargo de la mezzosoprano Paola Völk, donde los alumnos reciben un entrenamiento personalizado que combina técnica vocal, interpretación y expresión artística. 
+                    La Cátedra de Canto Lírico está a cargo de la mezzosoprano Paola Völk y se enfoca en el desarrollo profesional de la voz a través de un entrenamiento personalizado. El programa integra tres pilares fundamentales: la técnica vocal sólida, la interpretación estilística y la presencia escénica, adaptándose a las necesidades específicas de cada registro y nivel.
                     <br></br>
-                    Se trabaja fonéticamente en diversos idiomas —español, italiano, alemán, francés, inglés y ruso—, aplicando principios de foniatría y cultivando la musicalidad y la precisión en cada obra.
+                    <br></br>
+                    La excelencia en el canto lírico requiere un dominio absoluto del idioma; por ello, realizamos un exhaustivo trabajo fonético en español, italiano, alemán, francés, inglés y ruso. Este estudio se complementa con la aplicación de principios de foniatría, garantizando que el alumno alcance su máximo potencial sonoro bajo estándares de salud vocal y eficiencia técnica.
+                    <br></br>
+                    <br></br>
+                    En este espacio, cultivamos la precisión musical y el rigor artístico necesarios para abordar el repertorio profesional. Buscamos que cada estudiante logre una interpretación equilibrada, donde la pureza del sonido y el respeto por la partitura se unan en una ejecución de excelencia.
                 </h3>
-                <img src='./cantoLirico.jpeg' alt='' className='imgCatedra' />
+                <img src='./cantoLirico.jpeg' alt='' className='imgCatedra1' />
             </div>
             <Button variant="outlined" onClick={handleVolver} className='buttonVolver'>VOLVER</Button>
         </div>

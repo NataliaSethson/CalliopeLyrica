@@ -76,7 +76,14 @@ const Informacion = () => {
           </Carousel>
         </div>
       </div>
-      <Button variant="outlined" onClick={handleVolver} className='buttonVolver'>VOLVER</Button>
+      <div className='conteinerButtonInf'>
+        <Button
+          onClick={handleVolver}
+          className="buttonVolver"
+          disableRipple >
+          VOLVER
+        </Button>
+      </div>
     </div>
   )
 }

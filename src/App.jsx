@@ -10,6 +10,7 @@ import { CartProvider } from './Context/CartContext'
 import Conciertos from './componentes/Conciertos/Conciertos'
 import Repertorio from './componentes/Repertorio/Repertorio'
 import CantoLirico from './componentes/CantoLirico/CantoLirico'
+import ScrollToTop from "./componentes/ScrollToTop/ScrollToTop"
 
 
 const App = () => {
@@ -17,20 +18,24 @@ const App = () => {
     <div className="app">
       <BrowserRouter>
         <CartProvider>
-          <NavBar></NavBar>
-          <Routes>
-            <Route path='/' element={<Inicio />} />
-            <Route path='/informacion' element={<Informacion />} />
-            <Route path='/institucional' element={<Institucional />} />
-            <Route path='/Conciertos' element={<Conciertos />} />
-            <Route path='/Repertorio' element={<Repertorio />} />
-            <Route path='/CantoLirico' element={<CantoLirico />} />
-            <Route path='*' element={<Navigate to="/" />} />
-          </Routes>
-          <Footer></Footer>
-          <WspButton></WspButton>
-        </CartProvider>
+          <NavBar />
+        
+          <div className="content-wrapper">
+            <Routes>
+              <Route path='/' element={<Inicio />} />
+              <Route path='/informacion' element={<Informacion />} />
+              <Route path='/institucional' element={<Institucional />} />
+              <Route path='/Conciertos' element={<Conciertos />} />
+              <Route path='/Repertorio' element={<Repertorio />} />
+              <Route path='/CantoLirico' element={<CantoLirico />} />
+              <Route path='*' element={<Navigate to="/" />} />
+            </Routes>
+          </div>
 
+          <ScrollToTop/>
+          <WspButton />
+        </CartProvider>
+        <Footer />
       </BrowserRouter>
     </div>
   )
