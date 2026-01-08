@@ -30,6 +30,19 @@
   display: block;
 }
 
+@media (max-width: 900px) {
+  .imgContConciertos {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .imgConcert {
+    width: 70%;
+    height: 550px;
+  }
+
+}
+
 @media (max-width: 768px) {
   .textConcert {
     font-size: 20px;
@@ -38,13 +51,12 @@
 
   .imgContConciertos {
     grid-template-columns: 1fr;
-    gap: 15px;
-    margin: 40px auto 70px;
+    gap: 10px;
   }
 
   .imgConcert {
-    height: 450px;
-    width: 100%;
+    height: 500px;
+    width: 70%;
     margin: 15px !important;
   }
 }
@@ -58,13 +70,27 @@
 
   .imgContConciertos {
     grid-template-columns: 1fr;
-    gap: 15px;
-    
+    gap: 10px;
+
   }
 
   .imgConcert {
-    width: 100%;
+    width: 90%;
     height: 400px;
+    margin: 15px !important;
+  }
+}
+
+@media (max-width: 300px) {
+  .imgContConciertos {
+    grid-template-columns: 1fr;
+    gap: 10px;
+
+  }
+
+  .imgConcert {
+    width: 90%;
+    height: 250px;
     margin: 15px !important;
   }
 }
