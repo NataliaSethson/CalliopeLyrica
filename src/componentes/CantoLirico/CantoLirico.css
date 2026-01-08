@@ -1,5 +1,4 @@
 .catedraConteiner {
-    margin-top: 30px;
     margin-bottom: 25px;
     text-align: center;
 }
@@ -9,7 +8,7 @@
   font-weight: lighter;
   font-size: 40px;
   margin: 15px;
-  margin-top: 90px;
+  margin-top: 20px;
   margin-bottom: 50px;
 }
 
@@ -18,7 +17,7 @@
   font-weight: lighter;
   font-size: 23px;
   margin-top: 50px;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   line-height: 1.5;
   max-width: 1200px;
   margin-left: auto;
